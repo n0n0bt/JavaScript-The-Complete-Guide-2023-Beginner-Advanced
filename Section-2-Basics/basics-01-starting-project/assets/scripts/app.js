@@ -4,7 +4,7 @@ let logEntries = [];
 
 // Gets input from input field (from the other file(vendor.js))
 function getUserNumberInput() {
-    return userInput.value;
+    return parseInt(userInput.value);
 }
 
 
